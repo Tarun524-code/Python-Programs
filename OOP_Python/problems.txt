@@ -1,0 +1,100 @@
+1. Create a class named book
+add an __init__ constructor method that accepts title, author, publisher, and price as input parameters and initializes them to private instance variables
+add an instance method purchase which receives no. of copies as input, initializes it to a private instance variable, and computes total as price * no. of copies; the total is stored in an instance variable.
+Now based on no. of copies the discount is computed as follows
+noc = 1-100  -> no discount
+      101-200 -> 10%
+      200-300 -> 20%
+      300-400 -> 40%
+     >400 -> 50%
+
+discount should be stored in an instance variable and total should be updated in the instance variable as 
+total -= discount
+
+Create an instance method display details and print complete information about book purchase.
+o/p:
+Book purchase details
+----------------------
+Book Name:___________
+Author:______________
+Price:_______________
+NOC:_________________
+Discount:____________
+Total:_______________
+
+Task-3:
+implement above task for purchase of one book with dynamic input data
+
+Task-2:
+implement the task for n different books and output should be as follows
+o/p:
+                purchase of book details
+--------------------------------------------------------------
+Book Name       Author      Price       noc discount    total
+---------------------------------------------------------------
+java            Alice       789         120 10%            23456
+python          john        896         50  no discount    5200
+
+
+
+Bank Account Tracker || Bank Account transaction Manager.
+Task 1: 
+1. Create a bank account class with attributes account number 
+       name of the person and balance , balance default should be 0.
+       Account number for different accounts should be generated automatically sequentially 
+       name of the person is input assigned through constructor.
+2. Implement a method deposit which receives amount as input and 
+   updates balance by adding amount to balance.
+3. Implement a method withdraw which receives amount as input and
+   updates balance by subtracting amount. If amount greater than available 
+   balance balance should not be updated and print a message 
+   "Insufficient Funds"
+4. Implement a method display to display complete details of account 
+   account number name balance 
+5. Implement a method check balance which prints only balance information 
+   
+Now implement above account tracker for one person as follows:
+Enter account details: 
+   person name .....
+Menu :
+1. Deposit 
+2. 
+3. 
+4. 
+
+Task-2:
+implement above program for multiple accounts as follows 
+Menu :
+1. Create new account 
+2. Deposit
+3. withdraw
+4. display
+5. check balance
+6. exit
+
+for deposit program for multiple accounts
+Enter account no :
+Enter amount :
+
+
+3.Shopping Cart
+Task-1
+1.build a shopping class cart
+2.use a constructor that uses a dictionary to maintain collection of items available with shop 
+3.define an empty cart 
+4.Implement a method add item. which is used to add 1 item from dictionary to cart
+5.Implement remove item method which removes an item from basket or cart
+6.Implement a method order which is used to finalize order and computes total amount and store the details of order
+o/p: Item available in shop:
+    ------------------------
+	item1
+	item2
+	items
+	etc---
+
+	menu
+-------------------
+1.Add to cart
+2.remove from cart
+3.Order
+4.exit
