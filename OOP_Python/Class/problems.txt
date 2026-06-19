@@ -98,3 +98,41 @@ o/p: Item available in shop:
 2.remove from cart
 3.Order
 4.exit
+
+4.Develop a python program for restaurant order management
+1.create a class for restaurant with attributes menu items, tables list, book table and customer orders
+2.Now implement method to add items to menu so every item contains price and category also.
+3.Implement a method to view the menu print the menu 
+4.Implement a method to reserve a table  
+5.Implement a method to receive orders from customers
+ when order is received from customer a customer id table no list of items order should be stored 
+6.Implement a method to view or print customer order 
+7.Implement a method to view or print table reservations 
+8.Implement a method to generate bill.
+
+5.Develop a school management system in python using collection of classes
+Task-1:
+1.Create a teacher class which stores using attributes name of the teacher, subjects, and category of the teacher
+2.use a constructor to store the data 
+3.use the method to print the details of the teacher
+
+4.Create class for student to manage student data
+5.use a constructor to store the details of the student like roll no,name,generated
+6.use method to upgrade grade to new grade
+5.implement a method to print details of the student
+
+7.create a class course that contains course name, corresponding teacher assigned, and corresponding roster(list of students registered for the course)
+8.use a constructor which stores course name,teacher assigned, and empty list roster
+9.implement a method enroll student 
+10.implement a method to find class average(students in the roster having grade sum/10)
+11.implement a method to display course details
+
+o/p:
+menu
+------
+1.create teacher
+2.create student
+3.create course
+4.display
+5.enroll student
+6.exit
