@@ -13,7 +13,7 @@ while c is not None:
     count = count + 1
     c = c.next
 c = l.head
+
 for _ in range(0,count//2):
     c = c.next
     
-
