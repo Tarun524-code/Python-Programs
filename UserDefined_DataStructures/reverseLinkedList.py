@@ -20,4 +20,4 @@ print('Reversed list:')
 if l.head is None:
     print('None')
 else:
-    l.traverse()
+    l.traverse
